@@ -1,0 +1,95 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>501Esports</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+    <main>
+      <header id="header"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTliDG_YBPA4Kw8cAZ3nCcDraVlhmWkq1EYQ&usqp=CAU" id="header-img"></img>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#aboutus" class="nav-link">About us!</a></li>
+          <li><a href="#teams" class="nav-link">Current Rosters</a></li>
+          <li><a href="#contact" class="nav-link">Contact us!</a></li>
+        </ul>
+      </nav>  
+     
+      </header>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/he6e-ySOdRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
+      <p></p>
+      <form method="post" action='https://www.freecodecamp.com/email-submit' id="form">
+      <label for="email">Join our newsletter!: <input id="email" name="email" type="email" required placeholder="EX John@yahoo.com" /></label>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+    <h3 id="aboutus">About us!</h3>
+    <div>501st is an up and coming eSports organization wanting to compete in Rainbow Six Siege, Apex Legends, and CS. Owned by current T3 Siege player "Spencnar" we strive to provide the most supportive family possible.</div>
+
+    <h3 id="teams">Our Current Teams!</h3>
+    <h4>Rainbow Six Siege</h4>
+    <li>Spencnar</li>
+    <li>J.</li>
+    <li>Trialing</li>
+    <li>Trialing</li>
+    <li>Trialing</li>
+
+    <h3 id="contact">Contact Us!</h3>
+    <li>Spencnar#2529 on discord</li>
+    <li>@Spencnar on twitter</li>
+
+    </main>
+  </body>
+
+** end of undefined **
+
+** start of undefined **
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: teal;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#header-img {
+ width: 100%;
+ height: 25%;
+  object-fit: cover;
+}
+
+#video {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+
+** end of undefined **
+
